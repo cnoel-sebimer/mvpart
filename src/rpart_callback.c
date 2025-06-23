@@ -30,8 +30,8 @@ SEXP init_rpcallback(SEXP rhox, SEXP ny, SEXP nr,
     SEXP stemp;
 
     rho = rhox;
-    ysave  = ainteger(ny );
-    rsave  = ainteger(nr);
+    ysave  = asInteger(ny );
+    rsave  = asInteger(nr);
     expr1  = expr1x;
     expr2  = expr2x;
 
